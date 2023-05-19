@@ -18,14 +18,17 @@ const SearchBar = ({ setUserParams }) => {
   return (
     <form className="form-container" onSubmit={handleSubmit}>
       <div className="form-contents">
+        {/* <label htmlFor="topic">Enter Topic</label> */}
+        {/* <br /> */}
         <input
           id="topic"
           type="text"
           value={newList.q}
           className="input-field"
+          placeholder="Search Here..."
           onChange={(e) => setNewList({ ...newList, q: e.target.value })}
         ></input>
-        <label htmlFor="topic">Enter Topic</label>
+
         <button type="submit" className="submit-btn">
           Submit
         </button>

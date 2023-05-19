@@ -9,7 +9,7 @@ const App = () => {
   const [data, setData] = useState([]);
 
   const [userParams, setUserParams] = useState({
-    q: "elonmusk",
+    q: "",
     safeSearch: "Off",
     textFormat: "Raw",
     freshness: "Day",

@@ -1,22 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&display=swap");
+
+@media screen and (max-width: 406px) {
+  .form-contents .input-field {
+    max-width: 210px;
+  }
+
+  .submit-btn {
+    margin: 20px 0px 0px 0px;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .form-contents .input-field {
+    width: 500px;
+  }
+}
+
 .form-container {
-  background-color: #aeaeae;
-  height: 100px;
+  font-family: "Outfit", sans-serif;
+  padding: 10px 0px;
+  height: auto;
   margin: 20px 0px 20px 0px;
   border-radius: 5px;
+  display: flex;
+  justify-content: center;
 }
 
 .form-contents {
   margin: 0px 0px 0px 20px;
 }
 
+.form-contents label {
+  font-weight: 600;
+  font-size: 20px;
+  text-align: center;
+  margin: 0px 20px 0px 20px;
+}
+
 .form-contents .input-field {
+  font-family: "Outfit", sans-serif;
   margin: 10px 20px 10px 10px;
-  padding: 20px 0px 20px 0px;
+  padding: 20px 0px 20px 5px;
   border-radius: 5px;
-  border: transparent;
+  border: 2px solid white;
 }
 
 .submit-btn {
+  font-family: "Outfit", sans-serif;
+  border-radius: 10px;
+  border: 2px solid black;
+  background-color: white;
+  font-weight: 600;
   margin: 20px 20px 0px 20px;
   padding: 20px 10px 20px 10px;
 }
